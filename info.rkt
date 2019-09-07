@@ -7,6 +7,9 @@
 
 (define scribblings '(("src/wiki.scrbl" (multi-page))))
 
+(define raco-commands
+  '(("wiki" (submod racket-wiki-demo/commands main) "racket-wiki helper" #f)))
+
 (define pkg-desc "A demo for a wiki-like doc for Racket")
 (define version "0.0")
 (define pkg-authors '(yfzhe))
